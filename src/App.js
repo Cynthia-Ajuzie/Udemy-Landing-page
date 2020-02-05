@@ -8,8 +8,6 @@ function App() {
     <div className="App-header">
        
         <Header />
-
-        {/* <Body /> */}
         
     </div>
   );
