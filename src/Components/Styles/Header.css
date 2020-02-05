@@ -1,0 +1,102 @@
+.App-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px; 
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    text-transform: capitalize;
+    width: 100%;
+    height: 70%;
+    padding-top: 10px;
+}
+.App-logo{
+    width: 10%;
+    height: 13%;
+}
+.App-Cat{
+    width: 10%;
+    height: 15%;
+    padding: 10px 0 0 50px;
+}
+
+.App-shopping{
+    height: 7vh;
+    width: 5vh;
+    margin-right: 30px;
+}
+.nav-bar{
+    padding: 10px 10px;
+    opacity: 0.5;
+}
+.nav-bar:hover{
+    background-color:  #f3f3f3;
+    opacity: 8;
+    border: 1px solid  #f3f3f3; 
+}
+.cat-text{
+    margin-left: 4px;
+    
+}
+.input{
+    display:flex;
+    border-radius: 3px;
+    width:40%;
+    height: 6vh;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d8caca;
+    background-color: #f7f1f1;
+    
+}
+.search-icon{
+    width: 15px;
+    color: rgb(218, 33, 42);
+
+}
+.for-business, .teach-udemy{
+    color:rgb(73, 72, 72);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-weight: 300;
+    font-size : 12px;
+    width: 15%;
+    margin-left: 20px;
+
+}
+.for-business:hover{
+    background: #f3f3f3;
+    border : 1px solid #f3ebeb;
+}
+.teach-udemy:hover{
+    background: #f3f3f3;
+    border : 1px solid #f3ebeb;
+}
+.App-shopping:hover{
+    background: #e2dfdf;
+    border-radius : 40%;
+}
+
+.Button1, .Button2{
+    height: 6vh;
+    width: 15vh;
+    /* padding: 20px 5px 0.5px; */
+
+}
+.Button1{
+    margin-right: 6px;
+}
+
+.Button2{
+    background-color: red;
+    /* padding:  */
+}
+.Button1:hover{
+    background-color: red;
+}
+.Button2:hover{
+    background-color: #666;
+}
